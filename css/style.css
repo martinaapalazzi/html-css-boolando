@@ -41,11 +41,12 @@ i {
 
 /* MAIN */
 .col-container {
-    margin: 20px 50px;
+    margin: 20px;
     display: flex;
+    flex-wrap: wrap;
 }
 .my-col {
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 20px);
     margin: 0 20px;
     position: relative;
 }
@@ -60,12 +61,37 @@ i {
     color: white;
     background-color: green;
     position: absolute;
-    left: 45px;
+    left: 50px;
     bottom: 100px;
 }
 img {
-    width: 100%;
+    width: 100%
+
 }
+/*.img-1 {
+    background-image: url(../images/img/1.webp);
+
+}
+.img-1:hover {
+    background-image: url(../images/img/1b.webp);
+}
+.img-2 {
+    background-image: url(../images/img/2.webp);
+}
+.img-2:hover {
+    background-image: url(../images/img/2b.webp);
+}
+*/
+
+
+.heart {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    right: 0;
+    top: 5px;
+}
+
 .description {
     font-size: 0.8em;
 }
