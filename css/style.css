@@ -7,6 +7,7 @@
 
 /* GENERAL */
 .container {
+    width: 1200px;
     margin: 0, auto;
 }
 
@@ -31,7 +32,7 @@ a {
     color: white;
 }
 .my-logo {
-    height: 30px;
+    width: 150px;
 }
 i {
     color: white;
@@ -39,9 +40,41 @@ i {
 
 
 /* MAIN */
-
-
-
+.col-container {
+    margin: 20px 50px;
+    display: flex;
+}
+.my-col {
+    width: calc(100% / 3);
+    margin: 0 20px;
+    position: relative;
+}
+.percentuale {
+    width: 12%;
+    color: white;
+    background-color: red;
+    position: absolute;
+    bottom: 100px;
+}
+.sostenibilita {
+    color: white;
+    background-color: green;
+    position: absolute;
+    left: 45px;
+    bottom: 100px;
+}
+img {
+    width: 100%;
+}
+.description {
+    font-size: 0.8em;
+}
+.discount {
+    color: red;
+}
+.old-price {
+    text-decoration: line-through;
+}
 
 /* FOOTER */
 
