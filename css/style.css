@@ -7,7 +7,6 @@
 
 /* GENERAL */
 .container {
-    width: 1200px;
     margin: 0, auto;
 }
 
@@ -17,15 +16,26 @@
 .top-container {
     width: 100%;
     background-color: orangered;
+}
+.my-row {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px;
 }
-ul {
-    text-decoration: none;
+li {
     display: inline-block;
-    color: white;
-
 }
-
+a {
+    text-decoration: none;
+    color: white;
+}
+.my-logo {
+    height: 30px;
+}
+i {
+    color: white;
+}
 
 
 /* MAIN */
