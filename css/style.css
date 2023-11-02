@@ -6,12 +6,25 @@
 }
 
 /* GENERAL */
-
+.container {
+    width: 1200px;
+    margin: 0, auto;
+}
 
 
 
 /* HEADER */ 
+.top-container {
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+}
+ul {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
 
+}
 
 
 
